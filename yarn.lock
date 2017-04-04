@@ -360,10 +360,6 @@ babel-plugin-check-es2015-constants@^6.22.0:
   dependencies:
     babel-runtime "^6.22.0"
 
-babel-plugin-markdown-react@^1.0.15:
-  version "1.0.15"
-  resolved "https://registry.yarnpkg.com/babel-plugin-markdown-react/-/babel-plugin-markdown-react-1.0.15.tgz#a06c6a01c04ac99f7e1def4b1088676836604d5d"
-
 babel-plugin-module-resolver@2.6.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-module-resolver/-/babel-plugin-module-resolver-2.6.0.tgz#578a827a2740e2531e37cbc99801618f4e16f578"
