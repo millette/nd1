@@ -4,14 +4,19 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "standard"
   },
   "dependencies": {
     "babel-plugin-markdown-react": "^1.0.15",
+    "glob": "^7.1.1",
     "next": "^2.0.1",
     "nprogress": "^0.2.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-markdown-it": "^1.0.2"
+  },
+  "devDependencies": {
+    "standard": "^9.0.2"
   }
 }
