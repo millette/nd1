@@ -13,7 +13,7 @@ Originally based on <https://github.com/zeit/next.js/tree/d5369c01a80e1fe072dd7b
 
 ## How to use
 
-Download the example [or clone the repo](https://github.com/millette/nd1):
+Clone the repo <https://github.com/millette/nd1>:
 
 ```bash
 git clone https://github.com/millette/nd1.git
