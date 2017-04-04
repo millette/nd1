@@ -30,7 +30,7 @@ export default ({ pathname, children, title = 'This is the default title' }) => 
       <link rel='stylesheet' type='text/css' href='/static/nprogress.css' />
     </Head>
     <header>
-      <Nav pathname={pathname}/>
+      <Nav pathname={pathname} />
     </header>
 
     { children }

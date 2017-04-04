@@ -9,7 +9,7 @@ import Markdown from 'react-markdown-it'
 // import Markdown from 'react-remarkable'
 // import Markdown from 'babel-plugin-markdown-react/markdown'
 
-import Nav from '../components/nav'
+// import Nav from '../components/nav'
 
 const opts = {
   html: true,
@@ -19,26 +19,26 @@ const opts = {
 
 export default (props) => (
   <Layout pathname={props.url.pathname}>
-      <Markdown options={opts}>{`
-        # Hello World
+    <Markdown options={opts}>{`
+      # Hello World
 
-        ## Needs a subtitle
-        Some text as a paragraph... and more text as a paragraph...
-        and more text as a paragraph... and more  text as a
-        paragraph... and more text as a paragraph... and more text as
-        a paragraph... and more.
+      ## Needs a subtitle
+      Some text as a paragraph... and more text as a paragraph...
+      and more text as a paragraph... and more  text as a
+      paragraph... and more text as a paragraph... and more text as
+      a paragraph... and more.
 
-        Some text as a *paragraph*... and more text as a paragraph...
-        and more text as a **paragraph**... and more  text as a
-        paragraph... and more text as a paragraph... and more text as
-        a paragraph... and more.
+      Some text as a *paragraph*... and more text as a paragraph...
+      and more text as a **paragraph**... and more  text as a
+      paragraph... and more text as a paragraph... and more text as
+      a paragraph... and more.
 
-        ## Another section
+      ## Another section
 
-        Like "that" he's saying to himself.
+      Like "that" he's saying to himself.
 
-        ## The end?
-        Yup. with an http://example.com/link so there. Did you know?
-      `}</Markdown>
+      ## The end?
+      Yup. with an http://example.com/link so there. Did you know?
+    `}</Markdown>
   </Layout>
 )

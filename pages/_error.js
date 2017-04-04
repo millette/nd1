@@ -11,16 +11,16 @@ export default class Error extends React.Component {
   render () {
     return (
       <Layout>
-      <p>{
-        this.props.statusCode
-        ? `An error ${this.props.statusCode} occurred on server`
-        : 'An error occurred on client'
-      }</p>
-      <p>
-        <Link prefetch href='/'>
-          <a>Home</a>
-        </Link>
-      </p>
+        <p>{
+          this.props.statusCode
+          ? `An error ${this.props.statusCode} occurred on server`
+          : 'An error occurred on client'
+        }</p>
+        <p>
+          <Link prefetch href='/'>
+            <a>Home</a>
+          </Link>
+        </p>
       </Layout>
     )
   }
