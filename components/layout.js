@@ -3,8 +3,6 @@ import Head from 'next/head'
 import NProgress from 'nprogress'
 import Nav from './nav'
 
-// NProgress.configure({ showSpinner: true })
-
 Router.onRouteChangeStart = (url) => {
   console.log(`Loading: ${url}`)
   NProgress.start()

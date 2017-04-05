@@ -10,6 +10,7 @@ Originally based on <https://github.com/zeit/next.js/tree/d5369c01a80e1fe072dd7b
 * Used markdown for frontpage content
 * Depend on glob as a temporary fix for [#1618](https://github.com/zeit/next.js/issues/1618)
 * Custom error page
+* Couchdb Change listener
 
 ## How to use
 
