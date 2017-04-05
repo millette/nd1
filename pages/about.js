@@ -26,8 +26,8 @@ export default class CouchdbChanges extends React.Component {
           include_docs: true
         }}
         onChange={(change) => {
-          docs.push(change.doc)
-          if (docs.length > 2) { docs.shift() }
+          docs.unshift(change.doc)
+          if (docs.length > 5) { docs.pop() }
           return this.setState({ docs })
         }}
       >
