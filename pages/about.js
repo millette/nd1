@@ -20,7 +20,7 @@ export default class CouchdbChanges extends React.Component {
 
     return (
       <PouchDBChanges
-        dbUrl='http://localhost:5993/nd1'
+        dbUrl='https://millette.cloudant.com/nd1'
         changesOpts={{
           live: true,
           include_docs: true
