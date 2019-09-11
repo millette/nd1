@@ -26,7 +26,7 @@ export default class CouchdbChanges extends React.Component {
           include_docs: true
         }}
         onChange={(change) => {
-          docs.unshift(change.doc)
+          docs.unshift(Object.assign(change.doc, { now: new Date().toISOString() }))
           if (docs.length > 5) { docs.pop() }
           return this.setState({ docs })
         }}
@@ -42,6 +42,8 @@ export default class CouchdbChanges extends React.Component {
                   <dd>{cur._id}</dd>
                   <dt>rev</dt>
                   <dd>{cur._rev}</dd>
+                  <dt>date</dt>
+                  <dd>{cur.now}</dd>
                 </dl>
               </div>
               <h2>
